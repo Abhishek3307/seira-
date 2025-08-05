@@ -1,0 +1,38 @@
+[STORAGE]
+SQLITE_DB = "data/db/devika.db"
+SCREENSHOTS_DIR = "data/screenshots"
+PDFS_DIR = "data/pdfs"
+PROJECTS_DIR = "data/projects"
+LOGS_DIR = "data/logs"
+REPOS_DIR = "data/repos"
+
+[API_KEYS]
+BING = ""
+GOOGLE_SEARCH = ""
+GOOGLE_SEARCH_ENGINE_ID = ""
+CLAUDE = ""
+OPENAI = ""
+MISTRAL = "LOCAL"
+GROQ = "gsk_2CcIP93rOjbBpYk3JEM1WGdyb3FYQRSj9qY30yvOydKaJYqcofUIs"
+NETLIFY = ""
+GEMINI = "AIzaSyDYZ8JF1RCKhNZq4oXQ3cFgsq4hw-I2R3g"
+
+[API_ENDPOINTS]
+BING = "https://api.bing.microsoft.com/v7.0/search"
+GOOGLE = "https://www.googleapis.com/customsearch/v1"
+OLLAMA = "http://127.0.0.1:11434"
+LM_STUDIO = "http://localhost:1234/v1"
+OPENAI = "https://api.openai.com/v1"
+GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+GROQ = "https://api.groq.com/openai/v1/chat/completions"
+
+[LOGGING]
+LOG_REST_API = true
+LOG_PROMPTS = false
+
+[TIMEOUT]
+INFERENCE = 60
+
+[PARAMETERS]
+TEMPERATURE = 0.7
+TOP_P = 0.9
